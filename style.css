@@ -54,6 +54,10 @@ section {
     margin-bottom: 40px; 
 }
 
+ul {
+    list-style-type: none;
+}
+
 h2 { 
     border-bottom: 3px solid #0066cc; 
     padding-bottom: 8px; 
@@ -73,11 +77,14 @@ h2 {
     text-align: center; 
     border: 1px solid #d0e4f5; 
     transition: transform 0.2s; 
+
 } 
+
 
 .card:hover { 
     transform: translateY(-4px); 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 } 
 
 footer { 
